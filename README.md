@@ -1,2 +1,2 @@
 # angular
-Angular 연습
+Angular 연습.
