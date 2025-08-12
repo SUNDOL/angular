@@ -1,0 +1,25 @@
+<nav class="navbar bg-body-tertiary">
+  <div class="container">
+    <a href="/" class="navbar-brand mx-1">Angular</a>
+    <div class="navbar-nav nav-item">
+      <a href="#menuOffcanvas" class="nav-link" data-bs-toggle="offcanvas" role="button"
+        aria-controls="menuOffcanvas"><i class="bi bi-list"></i></a>
+    </div>
+  </div>
+</nav>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="menuOffcanvas" aria-labelledby="menuOffcanvas">
+  <div class="offcanvas-header">
+    <div class="d-flex">
+      <i class="bi bi-person me-1" role="button"></i>
+      <i class="bi bi-person mx-1" role="button"></i>
+      <i class="bi bi-person mx-1" role="button"></i>
+      <i class="bi bi-person ms-1" role="button"></i>
+    </div>
+    <button class="btn-close" data-bs-dismiss="offcanvas" aria-label="close"></button>
+  </div>
+  <div class="offcanvas-body">
+
+  </div>
+</div>
+
+<router-outlet />
